@@ -11,7 +11,7 @@ public class Disease {
 	private Blob picture;
 	private String managerI;
 	private int countCmt;
-	
+	private String category;	
 	
 
 	public Disease() {
@@ -81,6 +81,14 @@ public class Disease {
 
 	public void setCountCmt(int countCmt) {
 		this.countCmt = countCmt;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
 	}
 
 	

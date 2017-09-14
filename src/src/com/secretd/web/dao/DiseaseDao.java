@@ -15,4 +15,12 @@ public interface DiseaseDao {
 
 	int getCount(int page, String title, String category);
 
+	void insert(String code, String number, String name, String explanation, String picture);
+
+	Disease get(String _name);
+
+	void delete(String name);
+
+	void edit(String code, String number, String name, String explanation, String picture);
+
 }
